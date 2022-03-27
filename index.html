@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Foxify</title>
+        <link rel="stylesheet" href="/fox/css/home.css">
+    </head>
+    <body>
+        <div class="topbar">
+            <div class="fox-logo"><b>Foxify</b></div>
+            <div class="producer">Produced by supreme labs</div>
+        </div>
+        <div class="upload-body">
+            <form class="upload" method="POST" action="parse.php" enctype="multipart/form-data">
+                <fieldset>
+                    <p><b>Select file to Foxify:</b></p>
+                    <input type="file" name="file" class="fox-select" required/>
+                    <p><input type="submit" value="Foxify!" class="foxify" /></p>
+                </fieldset>
+            </form>
+            <form class="upload" method="POST" action="deparse.php" enctype="multipart/form-data" 
+            style="margin-top: 200px;">
+                <fieldset>
+                    <p><b>Select file to Unfoxify:</b></p>
+                    <input type="file" name="file" class="fox-select" required/>
+                    <p><input type="submit" value="Foxify!" class="foxify" /></p>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

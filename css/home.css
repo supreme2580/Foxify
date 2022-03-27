@@ -1,0 +1,57 @@
+.topbar {
+    background-color: rgb(73, 71, 71);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+.topbar div {
+    float: left;
+    display: block;
+    overflow: hidden;
+    padding: 14px 16px;
+}
+.fox-logo {
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: 3px solid white;
+    background: none;
+    text-align: center;
+}
+.fox-logo b {
+    font-size: larger;
+    color: white;
+}
+.topbar .producer {
+    float: right;
+    color: white;
+    font-size: 18px;
+}
+.upload-body {
+    height: 500px;
+    position: relative;
+}
+.upload-body .upload {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fox-select {
+    border: 2px solid rgb(73, 71, 71);
+    padding: 10px;
+    border-radius: 10px;
+}
+.upload fieldset p {
+    text-align: center;
+}
+.foxify {
+    text-align: center;
+    padding: 10px;
+    background: rgb(73, 71, 71);
+    border: 2px solid rgb(73, 71, 71);
+    color: white;
+}
